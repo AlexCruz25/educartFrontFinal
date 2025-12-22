@@ -19,7 +19,7 @@ export const Header = () => {
 
 
   return (
-    <header className="bg-gradient-to-r from-indigo-500 to-purple-500 px-6 py-4 flex justify-between items-center shadow-lg">
+    <header className="bg-gradient-to-r from-indigo-300 to-purple-300 px-6 py-4 flex justify-between items-center shadow-lg">
       <Link
         to="/"
         className="flex items-center gap-2 text-white font-bold text-xl"

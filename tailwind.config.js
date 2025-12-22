@@ -18,34 +18,34 @@ export default {
       themes: {
         light: {
           colors: {
-            background: "#f9fafb", // gray-50
-            foreground: "#1f2937", // gray-800
+            background: "#ffffff", // blanco neutro más claro
+            foreground: "#111827", // gray-900 suave
             primary: {
-              DEFAULT: "#4f46e5", // indigo-600
-              foreground: "#ffffff",
+              DEFAULT: "#818cf8", // indigo-400
+              foreground: "#0f172a",
             },
             secondary: {
-              DEFAULT: "#d97706", // amber-600
-              foreground: "#000000",
+              DEFAULT: "#fbbf24", // amber-400
+              foreground: "#1f2937",
             },
             // Color de fondo para las tarjetas (bg-white)
-            content1: "#ffffff",
+            content1: "#f8fafc", // slate-50 para dar ligereza
           },
         },
         dark: {
           colors: {
-            background: "#171717", // neutral-900
-            foreground: "#f3f4f6", // gray-100
+            background: "#1f2937", // slate-800 más claro que el neutral-900
+            foreground: "#e5e7eb", // gray-200
             primary: {
-              DEFAULT: "#6366f1", // indigo-500
-              foreground: "#ffffff",
+              DEFAULT: "#a5b4fc", // indigo-300
+              foreground: "#0b1021",
             },
             secondary: {
-              DEFAULT: "#f59e0b", // amber-500
-              foreground: "#000000",
+              DEFAULT: "#fcd34d", // amber-300
+              foreground: "#111827",
             },
-            // Color de fondo para las tarjetas (neutral-800)
-            content1: "#262626",
+            // Color de fondo para las tarjetas (neutral-700)
+            content1: "#2d3748",
           },
         },
       },
